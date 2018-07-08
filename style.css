@@ -1,0 +1,20 @@
+#gam{
+    width: 600px;
+    height: 600px;
+    background: orange; 
+}
+
+.block{
+    
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 1px solid white;
+    box-sizing: border-box;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 100px;
+    text-decoration-color: aliceblue;
+    text-transform: uppercase;
+}
