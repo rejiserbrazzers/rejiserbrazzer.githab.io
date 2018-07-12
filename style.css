@@ -1,20 +1,73 @@
-#gam{
-    width: 600px;
-    height: 600px;
-    background: orange; 
+body{
+    text-align: center;
+    background-image: url(22.jpg); 
+  
 }
 
-.block{
+
+
+.dam{
+     
+    margin-top: 3%;
+    height: 40%;
+    width :40%;
+    background-color: MediumSpringGreen;
+ display: inline-block;     
+}
+
+
+.epic{
+    display: inline-block;
+    margin-top: 3%;
+    height: 40%;
+    width :40%;
+    background-color: MediumSpringGreen; 
     
-    width: 200px;
-    height: 200px;
-    float: left;
-    border: 1px solid white;
-    box-sizing: border-box;
-    line-height: 50px;
-    text-align: center;
-    padding-top: 70px;
-    font-size: 100px;
-    text-decoration-color: aliceblue;
-    text-transform: uppercase;
+}
+
+
+.randy
+{
+   display: inline-block;
+    margin-top: 3%;
+    height: 40%;
+    width :40%;
+    background-color: MediumSpringGreen;
+}
+
+
+.xfile
+{
+    display: inline-block;
+    
+    margin-top: 3%;
+     height: 40%;
+    width :40%;
+    background-color: MediumSpringGreen;
+  
+}
+
+.gnom
+{
+
+       display: inline-block;
+
+    margin-top: 3%;
+     height: 40%;
+    width :40%;
+    background-color: MediumSpringGreen;
+      
+}
+
+.robo
+{
+
+         display: inline-block;
+
+
+    margin-top: 3%;
+  height: 40%;
+    width :40%;
+    background-color: MediumSpringGreen;
+
 }

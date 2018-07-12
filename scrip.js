@@ -1,167 +1,97 @@
-function checkWinner(){
-    var allblock = document.getElementsByClassName('block');
-    //console.log(allblock);
+$('html').keydown(function(e){ //отлавливаем нажатие клавиш
+  if (e.keyCode == 13) { //если нажали Enter, то true
+    alert("Ура нажали Enter");
+  }
     
-    if(allblock[0].innerHTML=='x' && allblock[1].innerHTML=='x' && allblock[2].innerHTML =='x' )
-        {
-            alert("X WINS");
-        }
     
-  
-    if(allblock[3].innerHTML == 'x' && allblock[4].innerHTML=='x' && allblock[5].innerHTML=='x')
-        {
-                    alert("X WINS");
-        }
+    if (e.keyCode == 49) { //если нажали Enter, то true
+ var audio = new Audio('dmn.mp3');
+audio.play();
+  }
+    
+    
+    if (e.keyCode == 50) { //если нажали Enter, то true
+    var audio = new Audio('21690.mp3');
+audio.play();
+  }
+    
+    
+     if (e.keyCode == 51) { //если нажали Enter, то true
+    var audio = new Audio('randyortonrko-soundeffect.mp3');
+audio.play();
+  }
+    
+    
+        if (e.keyCode == 52) { //если нажали Enter, то true
+   var audio = new Audio('X Files Theme.mp3');
+   audio.play();
+  }
 
-    if(allblock[6].innerHTML == 'x' && allblock[7].innerHTML=='x' && allblock[8].innerHTML=='x')
-        {
-                    alert("X WINS");
-        }
 
-     if(allblock[0].innerHTML == 'x' && allblock[3].innerHTML=='x' && allblock[6].innerHTML=='x')
-        {
-                    alert("X WINS");
-        }
-     if(allblock[1].innerHTML == 'x' && allblock[4].innerHTML=='x' && allblock[7].innerHTML=='x')
-        {
-                    alert("X WINS");
-        }
-     if(allblock[2].innerHTML == 'x' && allblock[5].innerHTML=='x' && allblock[8].innerHTML=='x')
-        {
-                    alert("X WINS");
-        }
-        
-      if(allblock[0].innerHTML == 'x' && allblock[5].innerHTML=='x' && allblock[8].innerHTML=='x')
-        {
-                    alert("X WINS");
-        }
-      if(allblock[4].innerHTML == 'x' && allblock[5].innerHTML=='x' && allblock[8].innerHTML=='x')
-        {
-                    alert("X WINS");
-        }
-      if(allblock[8].innerHTML == 'x' && allblock[5].innerHTML=='x' && allblock[8].innerHTML=='x')
-        {
-                    alert("X WINS");
-        }
-    
-    
-    
-      if(allblock[0].innerHTML == 'x' && allblock[4].innerHTML=='x' && allblock[8].innerHTML=='x')
-        {
-                    alert("X WINS");
-        }
-      if(allblock[2].innerHTML == 'x' && allblock[4].innerHTML=='x' && allblock[6].innerHTML=='x')
-        {
-                    alert("X WINS");
-        }
-    
-    
-    
-    //////////////////////////////////////////////////////////////////////////////
-    
-    
-    
-     if(allblock[0].innerHTML=='O' && allblock[1].innerHTML=='O' && allblock[2].innerHTML =='O' )
-        {
-            alert("O WINS");
-        }
-    
-  
-    if(allblock[3].innerHTML == 'O' && allblock[4].innerHTML=='O' && allblock[5].innerHTML=='O')
-        {
-                 alert("O WINS");
-        }
 
-    if(allblock[6].innerHTML == 'O' && allblock[7].innerHTML=='O' && allblock[8].innerHTML=='O')
-        {
-                    alert("O WINS");
-        }
 
-     if(allblock[0].innerHTML == 'O' && allblock[3].innerHTML=='O' && allblock[6].innerHTML=='O')
-        {
-                   alert("O WINS");
-        }
-     if(allblock[1].innerHTML == 'O' && allblock[4].innerHTML=='O' && allblock[7].innerHTML=='O')
-        {
-                    alert("O WINS");
-        }
-     if(allblock[2].innerHTML == 'O' && allblock[5].innerHTML=='O' && allblock[8].innerHTML=='O')
-        {
-                    alert("O WINS");
-        }
-        
-      if(allblock[0].innerHTML == 'O' && allblock[5].innerHTML=='O' && allblock[8].innerHTML=='O')
-        {
-                    alert("O WINS");
-        }
-      if(allblock[4].innerHTML == 'O' && allblock[5].innerHTML=='O' && allblock[8].innerHTML=='O')
-        {
-                     alert("O WINS");
-        }
-      if(allblock[8].innerHTML == 'O' && allblock[5].innerHTML=='O' && allblock[8].innerHTML=='O')
-        {
-                    alert("O WINS");
-        }
-    
-      if(allblock[0].innerHTML == 'O' && allblock[4].innerHTML=='O' && allblock[8].innerHTML=='O')
-        {
-                   alert("O WINS");
-        }
-      if(allblock[2].innerHTML == 'O' && allblock[4].innerHTML=='O' && allblock[6].innerHTML=='O')
-        {
-                     alert("O WINS");
-        }
+        if (e.keyCode == 53) { //если нажали Enter, то true
+   var audio = new Audio('wtf.mp3');
+   audio.play();
+  }
     
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-}
-  window.onload = function(){
-for (var i=0; i<9 ; i++){
-    
-    document.getElementById('gam').innerHTML+='<div class = "block"></div>';  
+        if (e.keyCode == 54) { //если нажали Enter, то true
+   var audio = new Audio('vot.mp3');
+   audio.play();
+  }
+});
+
+
+
+
+
+function mouseDown() {    
+var audio = new Audio('dmn.mp3');
+audio.play();
 }
 
-      var hod = 0;
-      
-      
-document.getElementById('gam').onclick = function(event){    
-    console.log(event);
-    if(event.target.className =='block'){
-        if(hod % 2==0){
-                 event.target.innerHTML = 'O';  
-     hod++;
-     checkWinner();
-            }
-      
-        else {
-             event.target.innerHTML = 'x';
-                hod++;
-           checkWinner();
-        }
-      
 
- 
-        }
+    function mouseDown2() {
+var audio = new Audio('21690.mp3');
+audio.play();
 }
 
 
 
+    function mouseDown3() {    
+var audio = new Audio('randyortonrko-soundeffect.mp3');
+audio.play();
 }
+
+
+
+
+    function mouseDown4() {
+var audio = new Audio('X Files Theme.mp3');
+audio.play();
     
+}
+
+
+
+    function mouseDown5() {
+var audio = new Audio('wtf.mp3');
+audio.play();
     
+}
+
+
+
+
+    function mouseDown6() {
+var audio = new Audio('vot.mp3');
+audio.play();
+    
+}
+
 
 
 
