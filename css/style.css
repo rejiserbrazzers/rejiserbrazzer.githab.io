@@ -29,7 +29,6 @@ a.button7:active {
 .button7{
   
     margin-top:1000px;
-    cursor: pointer;
 }
 
 
@@ -114,7 +113,6 @@ bottom: -98%;
 .baton{
      margin-top: 4%;
     margin-left: 20%;
-    cursor: pointer;
 }
 
 .txt
